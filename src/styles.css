@@ -126,7 +126,7 @@ html, body {
   opacity: 0.7;
 }
 
-.projects {
+.projects, .articles {
   width: 35rem; 
   margin: 0 auto;
   padding: 2.5rem 0;
@@ -152,13 +152,18 @@ html, body {
   max-width: 60%;
 }
 
+.article-info {
+  flex: 1;
+  max-width: 100%;
+}
+
 .year {
   font-size: 0.75rem; 
   color: gray;
   margin-bottom: 0.3125rem;
 }
 
-.project-title {
+.project-title, .article-title {
   font-size: 17px;
   font-weight: 550;
   margin-bottom: 0.3125rem;
