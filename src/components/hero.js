@@ -1,6 +1,5 @@
 import React from "react";
-import avatar from "../assets/avatar.jpg"; // Import avatar image
-import "../styles.css";
+import avatar from "../assets/avatar.jpg";
 
 function Hero() {
     return (
@@ -13,7 +12,7 @@ function Hero() {
                     Velit officia consequat duis enim velit mollit. Exercitation veniam consequat 
                     sunt nostrud amet.
                 </p>
-                <a href="#" className="cta-link">Take me to the magic land ↗</a>
+                <a href="#" className="cta-link">Take me to the magic land &#8599;</a>
             </div>
         </section>
     );

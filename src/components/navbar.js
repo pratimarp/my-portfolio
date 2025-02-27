@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../styles.css";
 
 function Navbar() {
     const [active, setActive] = useState("projects");
