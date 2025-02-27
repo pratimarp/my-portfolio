@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import Projects from "./components/projects";
 import Articles from "./components/articles";
+import Newsletter from "./components/newsletter";
 
 function App() {
     return (
@@ -11,7 +12,8 @@ function App() {
             <Navbar />
             <Hero />
             <Projects />
-            <Articles/>
+            <Articles />
+            <Newsletter />
         </div>
     );
 }
